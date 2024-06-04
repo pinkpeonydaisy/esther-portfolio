@@ -4,16 +4,22 @@ import Assets from "@/assets"
 import Components from "@/components"
 import Image from "next/image"
 import { useRouter } from "next/navigation"
+import { useEffect, useState } from "react"
 
 const Home = () => {
 	const router = useRouter()
+	const [slideIn, setSlideIn] = useState(false)
+
+	useEffect(() => {
+		setSlideIn(true)
+	}, [])
 
 	const goToAbout = () => {
 		router.push("/about")
 	}
 
 	return (
-		<div className="flex flex-col w-full">
+		<div className={`flex flex-col w-full ${slideIn ? 'animate-slideIn' : ''}`}>
 			<div className="flex bg-base-cornsilk w-full justify-center flex-col items-center">
 				<div className="flex w-full max-w-[1200px] px-5 py-10 items-center flex-col-reverse md:flex-row">
 

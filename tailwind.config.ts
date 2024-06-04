@@ -13,16 +13,26 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        "base-cornsilk": "#FFF7E1",
+        "base-baby-pink": "#EBC0C1",
+        "base-parrot-pink": "#CF9F9F",
+        "base-burnished-brown": "#9E7070",
+        "base-black": "#000000",
+        "base-white": "#FFFFFF",
+      },
+      keyframes: {
+        slideIn: {
+          '0%': { transform: 'translateX(-100%)', opacity: '0' },
+          '100%': { transform: 'translateX(0)', opacity: '1' },
+        },
+      },
+      animation: {
+        slideIn: 'slideIn 1.5s ease-in-out',
+      },
     },
-    colors: {
-      "base-cornsilk" : "#FFF7E1",
-      "base-baby-pink" : "#EBC0C1",
-      "base-parrot-pink" : "#CF9F9F",
-      "base-burnished-brown" : "#9E7070",
-      "base-black" : "#000000",
-      "base-white" : "#FFFFFF",
-    }
   },
   plugins: [],
 };
+
 export default config;
