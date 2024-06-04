@@ -20,7 +20,7 @@ const About = () => {
                     <div className="flex w-12/12 md:w-6/12 justify-center">
                         <div className="flex w-[250px] relative">
                             <Image src={Assets.ImageElipseTop} alt="top elipse" className="absolute top-[-20px] right-[-20px] w-[50px] h-[50px] z-20"/>
-							<Image src={Assets.ImageCat} alt="cat" className="w-[250px] rounded-lg z-10"/>
+							<Image src={Assets.PasFoto} alt="cat" className="w-[250px] rounded-lg z-10"/>
                             <Image src={Assets.ImageElipseBottom} alt="bottom elipse" className="absolute left-[-50px] bottom-[-50px] w-[100px] h-[100px]"/>
 						</div>
 					</div>

@@ -39,3 +39,32 @@ body {
 .rs-steps-item-title {
   color : #000000;
 }
+
+.typewriter-container {
+  display: flex;
+  flex-direction: column;
+  font-family: monospace;
+  overflow: hidden;
+  border-right: 0.15em solid #000;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #000;
+  }
+}

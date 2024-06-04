@@ -25,7 +25,7 @@ import ImageFooter from "./images/image-footer.svg"
 import ImageLavender from "./images/image-lavender.svg"
 import ImageTopOne from "./images/image-top-one.svg"
 import ImageTopTwo from "./images/image-top-two.svg"
-import ImageCat from "./images/images-cat.svg"
+import PasFoto from "./images/pas-foto.jpg"
 
 import ImagePortoOne from "./images/porto_one/images_porto_one_1.svg"
 import ImagePortoTwo from "./images/porto_one/images_porto_one_2.svg"
@@ -89,7 +89,7 @@ const Assets = {
     ImagePorto3Three,
     ImagePorto3Four,
     
-    ImageCat,
+    PasFoto,
     ImageElipseBottom,
     ImageElipseTop,
     ImageFooter,

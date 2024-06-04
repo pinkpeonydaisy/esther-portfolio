@@ -18,9 +18,11 @@ const Home = () => {
 				<div className="flex w-full max-w-[1200px] px-5 py-10 items-center flex-col-reverse md:flex-row">
 
 					<div className="flex w-12/12 md:w-6/12 flex-col mt-[50px] md:mt-0">
-						<div className="flex flex-col">
-							<span className="text-4xl">My name is</span>
-							<span className="text-4xl text-base-parrot-pink">Esther Regina <span className="text-2xl text-base-black">!</span> </span>
+						<div className="typewriter-container">
+							<div className="typewriter">
+								<span className="text-4xl">My name is </span>
+								<span className="text-4xl text-base-parrot-pink">Esther Regina <span className="text-2xl text-base-black">!</span> </span>
+							</div>
 						</div>
 						<div className="flex my-3">
 							<span>
@@ -37,7 +39,7 @@ const Home = () => {
 					</div>
 					<div className="flex w-12/12 md:w-6/12 justify-end relative">
 						<div className="flex">
-							<Image src={Assets.ImageCat} alt="cat" className="w-[250px] rounded-md"/>
+							<Image src={Assets.PasFoto} alt="Pas Foto Esther Regina" className="w-[250px] rounded-md"/>
 						</div>
 						<Image src={Assets.ImageLavender} alt="lavender" className="w-[150px] absolute bottom-[-50px] right-[-50px]"/>
 					</div>
