@@ -70,7 +70,7 @@ const Home = () => {
 
 							<div className="flex border-2 border-base-baby-pink rounded-lg shadow-sm px-4 min-h-[45px] items-center justify-center w-full my-3">
 								<span className="font-medium text-base-parrot-pink">
-									Security and Governance
+									App Development
 								</span>
 							</div>
 
@@ -107,13 +107,20 @@ const Home = () => {
 
 							<div className="flex border-2 border-base-baby-pink rounded-lg shadow-sm px-4 min-h-[45px] items-center justify-center w-full my-3">
 								<span className="font-medium text-base-parrot-pink">
-									Project Management
+									UX Research
 								</span>
 							</div>
 
 							<div className="flex border-2 border-base-baby-pink rounded-lg shadow-sm px-4 min-h-[45px] items-center justify-center w-full my-3">
 								<span className="font-medium text-base-parrot-pink">
 									IT Governance & Security
+								</span>
+							</div>
+
+
+							<div className="flex border-2 border-base-baby-pink rounded-lg shadow-sm px-4 min-h-[45px] items-center justify-center w-full my-3">
+								<span className="font-medium text-base-parrot-pink">
+									Product Management
 								</span>
 							</div>
 						</div>
