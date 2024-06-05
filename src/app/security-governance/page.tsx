@@ -11,7 +11,7 @@ const styles = {
     verticalAlign: 'top'
 };
 
-const WebDevelopment = () => {
+const SecurityGovernance = () => {
     const proccessClick = () => {
     }
 
@@ -30,21 +30,21 @@ const WebDevelopment = () => {
                             <div className="flex m-5 border border-base-burnished-brown rounded-lg w-full flex-col">
                                 <div className="flex flex-col justify-center w-full border-b border-b-base-burnished-brown py-5 mb-5">
                                     <span className="text-center">Course Related :</span>
-                                    <span className="text-center">Rekayasa Perangkat Lunak</span>
+                                    <span className="text-center">Keamanan Informasi, Manajemen Sumber Daya STI, Keamanan Enterprise</span>
                                 </div>
                                 <div className="flex flex-col justify-center w-full pb-5">
-                                    <span className="text-center">Additional course :</span>
-                                    <span className="text-center">Udemy Courses</span>
+                                    <span className="text-center">Knowledge :</span>
+                                    <span className="text-center">ISO27000 Series, COBIT, Pentesting</span>
                                 </div>
                             </div>
                         </div>
                         <div className="flex w-6/12 justify-center">
                             <div className="flex m-5 border border-base-burnished-brown rounded-lg w-full flex-col items-center justify-center py-5">
                                 <div className="flex justify-center">
-                                    <span>More than</span>
+                                    <span>Approximately</span>
                                 </div>
                                 <div className="flex justify-center h-full items-center">
-                                    <span className="text-4xl font-semibold text-center">5</span>
+                                    <span className="text-4xl font-semibold text-center">2</span>
                                 </div>
                                 <div className="flex justify-center">
                                     <span>projects in 1 year</span>
@@ -57,13 +57,13 @@ const WebDevelopment = () => {
                 <div className="flex">
                     <div className="flex m-5 border border-base-burnished-brown rounded-lg w-full flex-col">
                         <div className="flex p-5 border-b border-b-base-burnished-brown justify-center">
-                            <span className="font-semibold text-center text-xl">Kursus Mengemudi Website</span>
+                            <span className="font-semibold text-center text-xl">Designing Security Architecture for Improving Reimbursement Service</span>
                         </div>
                         <div className="flex p-5">
                             <Steps vertical style={styles}>
                                 <Steps.Item 
                                     status="finish"
-                                    title="Membuat SKPL"
+                                    title="Membuat Security Architecture"
                                     description="Membuat Context Diagram, Use Case Diagram, Class Diagram"
                                 />
                                 <Steps.Item 
@@ -225,4 +225,4 @@ const WebDevelopment = () => {
     )
 }
 
-export default WebDevelopment
+export default SecurityGovernance

@@ -23,16 +23,18 @@ const Home = () => {
 			<div className="flex bg-base-cornsilk w-full justify-center flex-col items-center">
 				<div className="flex w-full max-w-[1200px] px-5 py-10 items-center flex-col-reverse md:flex-row">
 
-					<div className="flex w-12/12 md:w-6/12 flex-col mt-[50px] md:mt-0">
+					<div className="flex w-12/12 md:w-5/12 flex-col mt-[50px] md:mt-0">
 						<div className="typewriter-container">
 							<div className="typewriter">
 								<span className="text-4xl">My name is </span>
-								<span className="text-4xl text-base-parrot-pink">Esther Regina <span className="text-2xl text-base-black">!</span> </span>
+								<span className="text-4xl text-base-parrot-pink">Esther Regina <span className="text-2xl text-base-black"></span> </span>
 							</div>
 						</div>
 						<div className="flex my-3">
 							<span>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								I am a final year student in Bandung Institute of Technology, aiming to learn new things every single day. I am driven to
+								expand my skills in the UI/UX field in order to create a great experience for users. My background as an Information System and Technology
+								equipped me with so many areas to explore, which currently I am still developing my skills in App Development and IT Security.
 							</span>
 						</div>
 						<div className="flex">
@@ -63,6 +65,12 @@ const Home = () => {
 							<div className="flex border-2 border-base-baby-pink rounded-lg shadow-sm px-4 min-h-[45px] items-center justify-center w-full my-3">
 								<span className="font-medium text-base-parrot-pink">
 									UI/UX Design
+								</span>
+							</div>
+
+							<div className="flex border-2 border-base-baby-pink rounded-lg shadow-sm px-4 min-h-[45px] items-center justify-center w-full my-3">
+								<span className="font-medium text-base-parrot-pink">
+									Security and Governance
 								</span>
 							</div>
 

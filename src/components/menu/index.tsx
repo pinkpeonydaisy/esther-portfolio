@@ -47,6 +47,13 @@ const Menu = () => {
                         <span className="text-sm text-center">Product & Project Management</span>
                     </div>
                 </Link>
+
+
+                <Link href="security-governance" className={`${pathname === "/security-governannce" ? "text-base-baby-pink" : "text-base-cornsilk"}`}>
+                    <div className="flex">
+                        <span className="text-sm text-center">Security and Governance</span>
+                    </div>
+                </Link>
             </div>
             <div className="flex md:hidden w-8/12 justify-end cursor-pointer select-none" onClick={() => setShowMenuMobile(true)}>
                 <Image src={Assets.IconBurger} alt="burger" width={30} height={30}/>
@@ -85,6 +92,12 @@ const Menu = () => {
                         <Link href="/product-and-project-management" className={`${pathname === "/product-and-project-management" ? "text-base-black" : "text-[#727272]"}`}>
                             <div className="flex my-2">
                                 <span className="text-sm">Product & Project Management</span>
+                            </div>
+                        </Link>
+
+                        <Link href="/security-governance" className={`${pathname === "/security-governance" ? "text-base-black" : "text-[#727272]"}`}>
+                            <div className="flex my-2">
+                                <span className="text-sm">Security & Governance</span>
                             </div>
                         </Link>
                     </div>
