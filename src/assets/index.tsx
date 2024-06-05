@@ -32,10 +32,12 @@ import ImagePortoTwo from "./images/porto_one/images_porto_one_2.svg"
 import ImagePortoThree from "./images/porto_one/images_porto_one_3.svg"
 import ImagePortoFour from "./images/porto_one/images_porto_one_4.svg"
 
-import ImagePorto2One from "./images/porto_two/images_porto_two_1.svg"
-import ImagePorto2Two from "./images/porto_two/images_porto_two_2.svg"
-import ImagePorto2Three from "./images/porto_two/images_porto_two_3.svg"
-import ImagePorto2Four from "./images/porto_two/images_porto_two_4.svg"
+
+import ImagePorto2One from "./images/porto_two/image_porto_two_1.png"
+import ImagePorto2Two from "./images/porto_two/images_porto_two_2.png"
+import ImagePorto2Three from "./images/porto_two/images_porto_two_3.png"
+import ImagePorto2Four from "./images/porto_two/images_porto_two_4.png"
+
 
 import ImagePorto3One from "./images/porto_three/image_porto_three_1.svg"
 import ImagePorto3Two from "./images/porto_three/image_porto_three_2.svg"
