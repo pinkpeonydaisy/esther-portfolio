@@ -68,3 +68,19 @@ body {
     border-color: #000;
   }
 }
+
+.link-button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.link-button:hover {
+  background-color: #EBC0C1; /* Light pink background on hover */
+  color: cornsilk; /* White text on hover */
+}
+
+.link-button:active {
+  background-color: #EBC0C1; /* Darker pink background on click */
+  color: cornsilk; /* White text on click */
+}

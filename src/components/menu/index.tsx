@@ -18,38 +18,37 @@ const Menu = () => {
                 </Link>
             </div> 
             <div className="hidden md:flex w-8/12 justify-between">
-                <Link href="/about" className={`${pathname === "/about" ? "text-base-baby-pink" : "text-base-cornsilk"}`}>
+                <Link href="/about" className={`link-button ${pathname === "/about" ? "text-base-baby-pink" : "text-base-cornsilk"}`}>
                     <div className="flex">
                         <span className="text-sm text-center">About</span>
                     </div>
                 </Link>
 
-                <Link href="/ui-ux-design" className={`${pathname === "/ui-ux-design" ? "text-base-baby-pink" : "text-base-cornsilk"}`}>
+                <Link href="/ui-ux-design" className={`link-button ${pathname === "/ui-ux-design" ? "text-base-baby-pink" : "text-base-cornsilk"}`}>
                     <div className="flex">
                         <span className="text-sm text-center">UI/UX Design</span>
                     </div>
                 </Link>
 
-                <Link href="/web-development" className={`${pathname === "/web-development" ? "text-base-baby-pink" : "text-base-cornsilk"}`}>
+                <Link href="/web-development" className={`link-button ${pathname === "/web-development" ? "text-base-baby-pink" : "text-base-cornsilk"}`}>
                     <div className="flex">
                         <span className="text-sm text-center">Website Development</span>
                     </div>
                 </Link>
 
-                <Link href="/system-analysis" className={`${pathname === "/system-analysis" ? "text-base-baby-pink" : "text-base-cornsilk"}`}>
+                <Link href="/system-analysis" className={`link-button ${pathname === "/system-analysis" ? "text-base-baby-pink" : "text-base-cornsilk"}`}>
                     <div className="flex">
                         <span className="text-sm text-center">System Analysis</span>
                     </div>
                 </Link>
 
-                <Link href="/product-and-project-management" className={`${pathname === "/product-and-project-management" ? "text-base-baby-pink" : "text-base-cornsilk"}`}>
+                <Link href="/product-and-project-management" className={`link-button ${pathname === "/product-and-project-management" ? "text-base-baby-pink" : "text-base-cornsilk"}`}>
                     <div className="flex">
                         <span className="text-sm text-center">Product & Project Management</span>
                     </div>
                 </Link>
 
-
-                <Link href="security-governance" className={`${pathname === "/security-governannce" ? "text-base-baby-pink" : "text-base-cornsilk"}`}>
+                <Link href="/security-governance" className={`link-button ${pathname === "/security-governannce" ? "text-base-baby-pink" : "text-base-cornsilk"}`}>
                     <div className="flex">
                         <span className="text-sm text-center">Security and Governance</span>
                     </div>
@@ -65,37 +64,37 @@ const Menu = () => {
                 showMenuMobile &&
                 <div className="flex absolute bg-base-black/50 w-full min-h-screen left-0 top-0" onClick={() => setShowMenuMobile(false)}>
                     <div className="flex w-full max-w-[400px] bg-base-white p-3 flex-col z-40">
-                        <Link href="/about" className={`${pathname === "/about" ? "text-base-black" : "text-[#727272]"}`}>
+                        <Link href="/about" className={`link-button ${pathname === "/about" ? "text-base-black" : "text-[#727272]"}`}>
                             <div className="flex my-2">
                                 <span className="text-sm">About</span>
                             </div>
                         </Link>
 
-                        <Link href="/ui-ux-design" className={`${pathname === "/ui-ux-design" ? "text-base-black" : "text-[#727272]"}`}>
+                        <Link href="/ui-ux-design" className={`link-button ${pathname === "/ui-ux-design" ? "text-base-black" : "text-[#727272]"}`}>
                             <div className="flex my-2">
                                 <span className="text-sm">UI/UX Design</span>
                             </div>
                         </Link>
 
-                        <Link href="/web-development" className={`${pathname === "/web-development" ? "text-base-black" : "text-[#727272]"}`}>
+                        <Link href="/web-development" className={`link-button ${pathname === "/web-development" ? "text-base-black" : "text-[#727272]"}`}>
                             <div className="flex my-2">
                                 <span className="text-sm">Website Development</span>
                             </div>
                         </Link>
 
-                        <Link href="/system-analysis" className={`${pathname === "/system-analysis" ? "text-base-black" : "text-[#727272]"}`}>
+                        <Link href="/system-analysis" className={`link-button ${pathname === "/system-analysis" ? "text-base-black" : "text-[#727272]"}`}>
                             <div className="flex my-2">
                                 <span className="text-sm">System Analysis</span>
                             </div>
                         </Link>
 
-                        <Link href="/product-and-project-management" className={`${pathname === "/product-and-project-management" ? "text-base-black" : "text-[#727272]"}`}>
+                        <Link href="/product-and-project-management" className={`link-button ${pathname === "/product-and-project-management" ? "text-base-black" : "text-[#727272]"}`}>
                             <div className="flex my-2">
                                 <span className="text-sm">Product & Project Management</span>
                             </div>
                         </Link>
 
-                        <Link href="/security-governance" className={`${pathname === "/security-governance" ? "text-base-black" : "text-[#727272]"}`}>
+                        <Link href="/security-governance" className={`link-button ${pathname === "/security-governance" ? "text-base-black" : "text-[#727272]"}`}>
                             <div className="flex my-2">
                                 <span className="text-sm">Security & Governance</span>
                             </div>
