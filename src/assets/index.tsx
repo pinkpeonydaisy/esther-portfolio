@@ -32,7 +32,7 @@ import ImagePortoTwo from "./images/porto_one/images_porto_one_2.svg"
 import ImagePortoThree from "./images/porto_one/images_porto_one_3.svg"
 import ImagePortoFour from "./images/porto_one/images_porto_one_4.svg"
 
-
+import Microsoft365 from "./images/microsoft365.png"
 import ImagePorto2One from "./images/porto_two/image_porto_two_1.png"
 import ImagePorto2Two from "./images/porto_two/images_porto_two_2.png"
 import ImagePorto2Three from "./images/porto_two/images_porto_two_3.png"
@@ -48,7 +48,7 @@ import ImagePorto4One from "./images/porto_four/image_porto_four_1.svg"
 import ImagePorto4Two from "./images/porto_four/image_porto_four_2.svg"
 import ImagePorto4Three from "./images/porto_four/image_porto_four_3.svg"
 import ImagePorto4Four from "./images/porto_four/image_porto_four_4.svg"
-
+import Jira from "./images/jira.png"
 const Assets = {
     IconArrow,
     IconDagozila,
@@ -97,7 +97,9 @@ const Assets = {
     ImageFooter,
     ImageLavender,
     ImageTopOne,
-    ImageTopTwo
+    ImageTopTwo,
+    Microsoft365,
+    Jira
 }
 
 export default Assets
