@@ -166,11 +166,11 @@ const SystemAnalysis = () => {
               </Steps>
             </div>
             <div className="flex mb-5 flex-col md:flex-row">
-              <div className="flex w-full justify-center mt-2 md:mt-0">
+              <div className="flex w-full justify-center">
                 <Components.Button
                   label="See Document"
                   showArrow={false}
-                  onClick={proccessClick}
+                  href="https://drive.google.com/file/d/1OkXEWfD8ZhW0qnFAfUUeFY5P3I1OE2dM/view?usp=sharing" // Replace with your URL
                 />
               </div>
             </div>
@@ -240,11 +240,11 @@ const SystemAnalysis = () => {
               </Steps>
             </div>
             <div className="flex mb-5 flex-col md:flex-row">
-              <div className="flex w-full justify-center mt-2 md:mt-0">
+              <div className="flex w-full justify-center">
                 <Components.Button
                   label="See Document"
                   showArrow={false}
-                  onClick={proccessClick}
+                  href="https://drive.google.com/file/d/14veJzzq5lwuykG3jBRZB42MVToey4GrU/view?usp=sharing" // Replace with your URL
                 />
               </div>
             </div>
