@@ -162,32 +162,27 @@ const ProductAndProjectManagement = () => {
                 />
                 <Steps.Item
                   status="finish"
-                  title="Analisis Kondisi Bisnis"
-                  description="Membuat PESTEL, BCG Growth Matrix, dan Porter Five Forces"
+                  title="Ideation"
+                  description="Membuat Lean Canvas, SWOT, SCAMPER"
                 />
                 <Steps.Item
                   status="finish"
-                  title="Inisiatif untuk mencapai Goals Berdasarkan Misi"
-                  description="Membuat Business Strategy Mapping dan tabel strategi yang berdasarkan perspektif"
+                  title="Validate Ideas"
+                  description="Membuat hipotesis, melakukan wawancara, mengambil kesimpulan dari wawancara"
                 />
                 <Steps.Item
                   status="finish"
-                  title="Analisis aktivitas inti perusahaan"
-                  description="Membuat value chain, capability mapping, dan value stream capability"
-                />
-                <Steps.Item
-                  status="finish"
-                  title="Analisis stakeholder"
-                  description="Membuat stakeholder wheels, initiative mapping dengan Honshin Kanri"
+                  title="Prototyping"
+                  description="Membuat feature prioritization dengan MoSCOW dan ICE Method, membuat prototype dengan Figma"
                 />
               </Steps>
             </div>
             <div className="flex mb-5 flex-col md:flex-row">
-              <div className="flex w-full justify-center mt-2 md:mt-0">
+              <div className="flex w-full justify-center">
                 <Components.Button
-                  label="See Document"
+                  label="See Agile Document for Executing"
                   showArrow={false}
-                  onClick={proccessClick}
+                  href="https://drive.google.com/file/d/1xB4ZdqqoIvTn4VDj75toEqyfDDe0_0g_/view?usp=sharing" // Replace with your URL
                 />
               </div>
             </div>
@@ -201,13 +196,6 @@ const ProductAndProjectManagement = () => {
                   alt="trello"
                   width={40}
                   height={40}
-                  className="m-2"
-                />
-                <Image
-                  src={Assets.IconArchi}
-                  alt="trello"
-                  width={100}
-                  height={100}
                   className="m-2"
                 />
               </div>
