@@ -1,7 +1,7 @@
 import IconArrow from "./icons/icon-arrow.svg"
 import IconDagozila from "./icons/icon-dagozila.svg"
 import IconExperience from "./icons/icon-experience.svg"
-import IconFigma from "./icons/icon-figma.svg"
+// import IconFigma from "./icons/icon-figma.svg"
 import IconGmail from "./icons/icon-gmail.svg"
 import IconIF from "./icons/icon-if.svg"
 import IconInkubator from "./icons/icon-inkubator.svg"
@@ -48,6 +48,8 @@ import ImagePorto4One from "./images/porto_four/image_porto_four_1.svg"
 import ImagePorto4Two from "./images/porto_four/image_porto_four_2.svg"
 import ImagePorto4Three from "./images/porto_four/image_porto_four_3.svg"
 import ImagePorto4Four from "./images/porto_four/image_porto_four_4.svg"
+import IconFigma from "./images/figma.jpg"
+
 import Jira from "./images/jira.png"
 const Assets = {
     IconArrow,
@@ -70,6 +72,7 @@ const Assets = {
     IconMongo,
     IconNext,
     IconFastapi,
+    // IconFigma,
 
     ImagePorto4One,
     ImagePorto4Two,

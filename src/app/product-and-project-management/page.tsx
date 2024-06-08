@@ -192,8 +192,8 @@ const ProductAndProjectManagement = () => {
               </div>
               <div className="flex w-8/12">
                 <Image
-                  src={Assets.IconDrawio}
-                  alt="trello"
+                  src={Assets.IconFigma}
+                  alt="figma"
                   width={40}
                   height={40}
                   className="m-2"
