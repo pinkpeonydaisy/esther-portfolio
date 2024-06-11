@@ -126,24 +126,24 @@ const SecurityGovernance = () => {
                 <div className="flex flex-col md:flex-row">
                   <div className="flex flex-col w-full">
                     <Image
-                      src={Assets.ImagePorto3One}
+                      src={Assets.Security1}
                       alt="porto one"
                       className="w-full p-1"
                     />
                     <Image
-                      src={Assets.ImagePorto3Two}
+                      src={Assets.Security2}
                       alt="porto one"
                       className="w-full p-1"
                     />
                   </div>
                   <div className="flex flex-col w-full">
                     <Image
-                      src={Assets.ImagePorto3Three}
+                      src={Assets.Security3}
                       alt="porto four"
                       className="w-full p-1"
                     />
                     <Image
-                      src={Assets.ImagePorto3Four}
+                      src={Assets.Security4}
                       alt="porto three"
                       className="w-full p-1"
                     />
@@ -236,14 +236,14 @@ const SecurityGovernance = () => {
                 <div className="flex flex-col md:flex-row">
                   <div className="flex flex-col w-full p-1">
                     <Image
-                      src={Assets.ImagePorto4One}
+                      src={Assets.Pentest1}
                       alt="porto one"
                       className="w-full"
                     />
                   </div>
                   <div className="flex flex-col w-full p-1">
                     <Image
-                      src={Assets.ImagePorto4Two}
+                      src={Assets.Pentest2}
                       alt="porto one"
                       className="w-full"
                     />
@@ -252,14 +252,14 @@ const SecurityGovernance = () => {
                 <div className="flex flex-col md:flex-row p-1">
                   <div className="flex flex-col w-full p-1">
                     <Image
-                      src={Assets.ImagePorto4Three}
+                      src={Assets.Pentest3}
                       alt="porto four"
                       className="w-full"
                     />
                   </div>
                   <div className="flex flex-col w-full p-1">
                     <Image
-                      src={Assets.ImagePorto4Four}
+                      src={Assets.Pentest4}
                       alt="porto three"
                       className="w-full"
                     />

@@ -56,6 +56,16 @@ import ImagePorto4Three from "./images/porto_four/image_porto_four_3.svg"
 import ImagePorto4Four from "./images/porto_four/image_porto_four_4.svg"
 import IconFigma from "./images/figma.jpg"
 
+import Security1 from "./images/security1.png"
+import Security2 from "./images/security2.png"
+import Security3 from "./images/security3.png"
+import Security4 from "./images/security4.png"
+import Pentest1 from "./images/pentest1.png"
+import Pentest2 from "./images/pentest2.png"
+import Pentest3 from "./images/pentest3.png"
+import Pentest4 from "./images/pentest4.png"
+
+
 import Jira from "./images/jira.png"
 const Assets = {
     IconArrow,
@@ -115,7 +125,17 @@ const Assets = {
     RPL3,
     RPL4,
     RPL5,
-    RPL6
+    RPL6,
+
+    Security1,
+    Security2,
+    Security3,
+    Security4,
+
+    Pentest1,
+    Pentest2,
+    Pentest3,
+    Pentest4
 }
 
 export default Assets
