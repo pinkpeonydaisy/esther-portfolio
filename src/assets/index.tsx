@@ -26,6 +26,12 @@ import ImageLavender from "./images/image-lavender.svg"
 import ImageTopOne from "./images/image-top-one.svg"
 import ImageTopTwo from "./images/image-top-two.svg"
 import PasFoto from "./images/pas-foto.jpg"
+import RPL1 from "./images/rpl1.png"
+import RPL2 from "./images/rpl2.png"
+import RPL3 from "./images/rpl3.png"
+import RPL4 from "./images/rpl5.png"
+import RPL5 from "./images/rpl6.png"
+import RPL6 from "./images/rpl7.png"
 
 import ImagePortoOne from "./images/porto_one/images_porto_one_1.svg"
 import ImagePortoTwo from "./images/porto_one/images_porto_one_2.svg"
@@ -102,7 +108,14 @@ const Assets = {
     ImageTopOne,
     ImageTopTwo,
     Microsoft365,
-    Jira
+    Jira,
+
+    RPL1,
+    RPL2,
+    RPL3,
+    RPL4,
+    RPL5,
+    RPL6
 }
 
 export default Assets

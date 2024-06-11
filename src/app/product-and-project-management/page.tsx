@@ -107,7 +107,7 @@ const ProductAndProjectManagement = () => {
             <div className="flex mb-5 flex-col md:flex-row">
               <div className="flex w-full justify-center">
                 <Components.Button
-                  label="See Agile Document for Executing"
+                  label="See Agile Document for Planning"
                   showArrow={false}
                   href="https://drive.google.com/file/d/1B-HJSql1Ed6ptlhkafh5odf4PKQHb-GJ/view?usp=sharing" // Replace with your URL
                 />
@@ -180,7 +180,7 @@ const ProductAndProjectManagement = () => {
             <div className="flex mb-5 flex-col md:flex-row">
               <div className="flex w-full justify-center">
                 <Components.Button
-                  label="See Agile Document for Executing"
+                  label="See Documentation"
                   showArrow={false}
                   href="https://drive.google.com/file/d/1xB4ZdqqoIvTn4VDj75toEqyfDDe0_0g_/view?usp=sharing" // Replace with your URL
                 />
