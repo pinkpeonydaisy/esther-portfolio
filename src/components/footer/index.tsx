@@ -42,7 +42,7 @@ const Footer = () => {
           </div>
           <div className="flex items-center mt-3 md:mt-0">
             <a
-              href="https://linkedin.com/in/esther-regina"
+              href="https://linkedin.com/in/esther-reginaa"
               className="flex px-2"
             >
               <Image
