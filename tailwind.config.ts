@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  darkMode: 'class', // Ensure dark mode is enabled
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -20,6 +21,11 @@ const config: Config = {
         "base-burnished-brown": "#9E7070",
         "base-black": "#000000",
         "base-white": "#FFFFFF",
+        "base-dark-background": "#121212", // Add your dark background color
+        "base-light-black": "#000000", // Ensure the text is black in dark mode
+        "base-light-pink": "#EBC0C1", // Ensure the text color remains consistent
+        "base-dark-pink": "#CF9F9F",
+        "base-light-brown": "#9E7070",
       },
       keyframes: {
         slideIn: {
