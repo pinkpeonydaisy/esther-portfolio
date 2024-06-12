@@ -28,14 +28,20 @@ const UiUxDesign = () => {
             <div className="flex w-6/12 justify-center">
               <div className="flex m-5 border border-base-burnished-brown rounded-lg w-full flex-col">
                 <div className="flex flex-col justify-center w-full border-b border-b-base-burnished-brown py-5 mb-5">
-                  <span className="text-center text-black">Course Related :</span>
+                  <span className="text-center text-black">
+                    Course Related :
+                  </span>
                   <span className="text-center text-black">
                     Interaksi Manusia Komputer
                   </span>
                 </div>
                 <div className="flex flex-col justify-center w-full pb-5">
-                  <span className="text-center text-black">Additional course :</span>
-                  <span className="text-center text-black">Digistar Class UI/UX</span>
+                  <span className="text-center text-black">
+                    Additional course :
+                  </span>
+                  <span className="text-center text-black">
+                    Digistar Class UI/UX
+                  </span>
                 </div>
               </div>
             </div>
@@ -45,7 +51,9 @@ const UiUxDesign = () => {
                   <span className="text-black">More than</span>
                 </div>
                 <div className="flex justify-center h-full items-center">
-                  <span className="text-4xl font-semibold text-center text-black">5+</span>
+                  <span className="text-4xl font-semibold text-center text-black">
+                    5+
+                  </span>
                 </div>
                 <div className="flex justify-center">
                   <span className="text-black">projects in 1 year</span>
@@ -74,8 +82,16 @@ const UiUxDesign = () => {
                   title="Created survey using Google Form"
                   className="text-black"
                 />
-                <Steps.Item status="finish" title="Conducted interview" className="text-black" />
-                <Steps.Item status="finish" title="Make two user persona" className="text-black" />
+                <Steps.Item
+                  status="finish"
+                  title="Conducted interview"
+                  className="text-black"
+                />
+                <Steps.Item
+                  status="finish"
+                  title="Make two user persona"
+                  className="text-black"
+                />
                 <Steps.Item
                   status="finish"
                   title="Choose the style, font, color palette, etc."
@@ -163,8 +179,16 @@ const UiUxDesign = () => {
                   title="Created survey using Google Form"
                   className="text-black"
                 />
-                <Steps.Item status="finish" title="Conducted interview" className="text-black" />
-                <Steps.Item status="finish" title="Make two user persona" className="text-black" />
+                <Steps.Item
+                  status="finish"
+                  title="Conducted interview"
+                  className="text-black"
+                />
+                <Steps.Item
+                  status="finish"
+                  title="Make two user persona"
+                  className="text-black"
+                />
                 <Steps.Item
                   status="finish"
                   title="Choose the style, font, color palette, etc."

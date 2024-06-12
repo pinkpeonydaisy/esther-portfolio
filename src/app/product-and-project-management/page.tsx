@@ -30,7 +30,9 @@ const ProductAndProjectManagement = () => {
             <div className="flex w-6/12 justify-center">
               <div className="flex m-5 border border-base-burnished-brown rounded-lg w-full flex-col">
                 <div className="flex flex-col justify-center w-full py-5 mb-5">
-                  <span className="text-center text-black">Course Related :</span>
+                  <span className="text-center text-black">
+                    Course Related :
+                  </span>
                   <span className="text-center text-black">
                     Project Management and Product Management
                   </span>
@@ -43,7 +45,9 @@ const ProductAndProjectManagement = () => {
                   <span>With</span>
                 </div>
                 <div className="flex justify-center h-full items-center">
-                  <span className="text-4xl font-semibold text-center text-black">2</span>
+                  <span className="text-4xl font-semibold text-center text-black">
+                    2
+                  </span>
                 </div>
                 <div className="flex justify-center text-black">
                   <span>projects in 6 months</span>

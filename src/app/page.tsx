@@ -33,9 +33,13 @@ const Home: React.FC = () => {
             </div>
             <div className="flex my-3">
               <span className="text-base-black">
-                I am a final year student in Bandung Institute of Technology, aiming to learn new things every single day. I am driven to
-                expand my skills in the UI/UX field in order to create a great experience for users. My background as an Information System and Technology
-                equipped me with so many areas to explore, which currently I am still developing my skills in App Development and IT Security.
+                I am a final year student in Bandung Institute of Technology,
+                aiming to learn new things every single day. I am driven to
+                expand my skills in the UI/UX field in order to create a great
+                experience for users. My background as an Information System and
+                Technology equipped me with so many areas to explore, which
+                currently I am still developing my skills in App Development and
+                IT Security.
               </span>
             </div>
             <div className="flex">
@@ -48,9 +52,17 @@ const Home: React.FC = () => {
           </div>
           <div className="flex w-full md:w-6/12 justify-end relative">
             <div className="flex">
-              <Image src={Assets.PasFoto} alt="Pas Foto Esther Regina" className="w-[250px] rounded-md" />
+              <Image
+                src={Assets.PasFoto}
+                alt="Pas Foto Esther Regina"
+                className="w-[250px] rounded-md"
+              />
             </div>
-            <Image src={Assets.ImageLavender} alt="lavender" className="w-[150px] absolute bottom-[-50px] right-[-50px]" />
+            <Image
+              src={Assets.ImageLavender}
+              alt="lavender"
+              className="w-[150px] absolute bottom-[-50px] right-[-50px]"
+            />
           </div>
         </div>
         <Image src={Assets.ImageTopOne} alt="top image" className="w-full" />
@@ -59,7 +71,9 @@ const Home: React.FC = () => {
       <div className="flex w-full justify-center">
         <div className="flex w-full max-w-[1200px] px-5 py-10 items-center flex-col justify-center">
           <div className="flex justify-center w-full">
-            <span className="font-semibold text-base-burnished-brown text-3xl text-center">Interests</span>
+            <span className="font-semibold text-base-burnished-brown text-3xl text-center">
+              Interests
+            </span>
           </div>
           <div className="flex mt-7 w-full flex-col md:flex-row">
             <div className="flex w-full flex-col px-2">

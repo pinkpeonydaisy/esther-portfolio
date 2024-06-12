@@ -29,7 +29,9 @@ const PictureSlide = () => {
   return (
     <div className="flex flex-col">
       <div className="flex justify-center my-4">
-        <span className="font-semibold text-2xl text-center text-black">Pages</span>
+        <span className="font-semibold text-2xl text-center text-black">
+          Pages
+        </span>
       </div>
       <div className="flex p-5 flex-col">
         <Slider {...settings}>
@@ -83,11 +85,17 @@ const WebDevelopment = () => {
             <div className="flex w-6/12 justify-center">
               <div className="flex m-5 border border-base-burnished-brown rounded-lg w-full flex-col">
                 <div className="flex flex-col justify-center w-full border-b border-b-base-burnished-brown py-5 mb-5">
-                  <span className="text-center text-black">Course Related :</span>
-                  <span className="text-center text-black">Rekayasa Perangkat Lunak</span>
+                  <span className="text-center text-black">
+                    Course Related :
+                  </span>
+                  <span className="text-center text-black">
+                    Rekayasa Perangkat Lunak
+                  </span>
                 </div>
                 <div className="flex flex-col justify-center w-full pb-5">
-                  <span className="text-center text-black">Additional course :</span>
+                  <span className="text-center text-black">
+                    Additional course :
+                  </span>
                   <span className="text-center text-black">Udemy Courses</span>
                 </div>
               </div>
@@ -98,7 +106,9 @@ const WebDevelopment = () => {
                   <span>More than</span>
                 </div>
                 <div className="flex justify-center h-full items-center">
-                  <span className="text-4xl font-semibold text-center text-black">5</span>
+                  <span className="text-4xl font-semibold text-center text-black">
+                    5
+                  </span>
                 </div>
                 <div className="flex justify-center text-black">
                   <span>projects in 1 year</span>
