@@ -110,19 +110,19 @@ const UiUxDesign = () => {
                 <div className="flex flex-col md:flex-row">
                   <div className="flex flex-col w-full">
                     <Image
-                      src={Assets.ImagePortoOne}
+                      src={Assets.UI3}
                       alt="porto one"
                       className="w-full p-1"
                     />
                     <Image
-                      src={Assets.ImagePortoTwo}
+                      src={Assets.UI4}
                       alt="porto one"
                       className="w-full p-1"
                     />
                   </div>
                   <div className="flex w-full items-start">
                     <Image
-                      src={Assets.ImagePortoFour}
+                      src={Assets.UI1}
                       alt="porto four"
                       className="w-full p-1"
                     />
@@ -130,7 +130,7 @@ const UiUxDesign = () => {
                 </div>
                 <div className="flex">
                   <Image
-                    src={Assets.ImagePortoThree}
+                    src={Assets.UI5}
                     alt="porto three"
                     className="w-full p-1"
                   />

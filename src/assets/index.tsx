@@ -65,6 +65,11 @@ import Pentest2 from "./images/pentest2.png"
 import Pentest3 from "./images/pentest3.png"
 import Pentest4 from "./images/pentest4.png"
 
+import UI1 from "./images/ui1.png"
+import UI2 from "./images/ui2.png"
+import UI3 from "./images/ui3.png"
+import UI4 from "./images/ui4.png"
+import UI5 from "./images/ui5.png"
 
 import Jira from "./images/jira.png"
 const Assets = {
@@ -135,7 +140,13 @@ const Assets = {
     Pentest1,
     Pentest2,
     Pentest3,
-    Pentest4
+    Pentest4,
+
+    UI1,
+    UI2,
+    UI3,
+    UI4,
+    UI5
 }
 
 export default Assets
