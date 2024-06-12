@@ -30,8 +30,8 @@ const SystemAnalysis = () => {
             <div className="flex w-6/12 justify-center">
               <div className="flex m-5 border border-base-burnished-brown rounded-lg w-full flex-col">
                 <div className="flex flex-col justify-center w-full py-5 mb-5">
-                  <span className="text-center">Course Related :</span>
-                  <span className="text-center">
+                  <span className="text-center text-black">Course Related :</span>
+                  <span className="text-center text-black">
                     Analisis Kebutuhan Sistem, Analisis Enterprise, Analisis
                     Kebutuhan Enterprise, Manajemen Sumber Daya STI
                   </span>
@@ -40,13 +40,13 @@ const SystemAnalysis = () => {
             </div>
             <div className="flex w-6/12 justify-center">
               <div className="flex m-5 border border-base-burnished-brown rounded-lg w-full flex-col items-center justify-center py-5">
-                <div className="flex justify-center">
+                <div className="flex justify-center text-black">
                   <span>With</span>
                 </div>
                 <div className="flex justify-center h-full items-center">
-                  <span className="text-4xl font-semibold text-center">3+</span>
+                  <span className="text-4xl font-semibold text-center text-black">3+</span>
                 </div>
-                <div className="flex justify-center">
+                <div className="flex justify-center text-black">
                   <span>projects in 1 year</span>
                 </div>
               </div>
@@ -57,12 +57,12 @@ const SystemAnalysis = () => {
         <div className="flex">
           <div className="flex m-5 border border-base-burnished-brown rounded-lg w-full flex-col">
             <div className="flex p-5 border-b border-b-base-burnished-brown justify-center">
-              <span className="font-semibold text-center text-xl">
+              <span className="font-semibold text-center text-xl text-black">
                 Percepatan Layanan Reimbursement PT Manulife
               </span>
             </div>
             <div className="flex justify-center py-10">
-              <span className="text-center font-medium">
+              <span className="text-center font-medium text-black">
                 Pembuatan inovasi percepatan layanan reimbursement pada PT
                 Manulife dengan predictive analytics AI
               </span>
@@ -107,7 +107,7 @@ const SystemAnalysis = () => {
             </div>
             <div className="flex border-t border-t-base-burnished-brown p-5 items-center">
               <div className="flex w-4/12">
-                <span className="font-semibold">Tools</span>
+                <span className="font-semibold text-black">Tools</span>
               </div>
               <div className="flex w-8/12">
                 <Image
@@ -132,7 +132,7 @@ const SystemAnalysis = () => {
         <div className="flex">
           <div className="flex m-5 border border-base-burnished-brown rounded-lg w-full flex-col">
             <div className="flex p-5 border-b border-b-base-burnished-brown justify-center">
-              <span className="font-semibold text-center text-xl">
+              <span className="font-semibold text-center text-xl text-black">
                 Analisis Kebutuhan Enterprise dari OKEGarden
               </span>
             </div>
@@ -176,7 +176,7 @@ const SystemAnalysis = () => {
             </div>
             <div className="flex border-t border-t-base-burnished-brown p-5 items-center">
               <div className="flex w-4/12">
-                <span className="font-semibold">Tools</span>
+                <span className="font-semibold text-black">Tools</span>
               </div>
               <div className="flex w-8/12">
                 <Image
@@ -201,7 +201,7 @@ const SystemAnalysis = () => {
         <div className="flex">
           <div className="flex m-5 border border-base-burnished-brown rounded-lg w-full flex-col">
             <div className="flex p-5 border-b border-b-base-burnished-brown justify-center">
-              <span className="font-semibold text-center text-xl">
+              <span className="font-semibold text-center text-xl text-black">
                 Analisis Kebutuhan Sistem Centro Trading
               </span>
             </div>
@@ -250,7 +250,7 @@ const SystemAnalysis = () => {
             </div>
             <div className="flex border-t border-t-base-burnished-brown p-5 items-center">
               <div className="flex w-4/12">
-                <span className="font-semibold">Tools</span>
+                <span className="font-semibold text-black">Tools</span>
               </div>
               <div className="flex w-8/12">
                 <Image
@@ -263,7 +263,7 @@ const SystemAnalysis = () => {
               </div>
             </div>
             <div className="flex px-5 pb-5">
-              <span>
+              <span className="text-black">
                 Notable awards : Best Project Team in Analisis Kebutuhan Sistem
                 Class
               </span>

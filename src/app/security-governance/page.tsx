@@ -20,7 +20,7 @@ const SecurityGovernance = () => {
         <div className="flex flex-col">
           <div className="flex w-full p-5 justify-center">
             <div className="flex">
-              <span className="font-semibold text-base-burnished-brown text-3xl text-center">
+              <span className="font-semibold text-base-burnished-brown text-3xl text-center ">
                 Security and Governance
               </span>
             </div>
@@ -30,15 +30,15 @@ const SecurityGovernance = () => {
             <div className="flex w-6/12 justify-center">
               <div className="flex m-5 border border-base-burnished-brown rounded-lg w-full flex-col">
                 <div className="flex flex-col justify-center w-full border-b border-b-base-burnished-brown py-5 mb-5">
-                  <span className="text-center">Course Related :</span>
-                  <span className="text-center">
+                  <span className="text-center text-black">Course Related :</span>
+                  <span className="text-center text-black">
                     Keamanan Informasi, Manajemen Sumber Daya STI, Keamanan
                     Enterprise
                   </span>
                 </div>
                 <div className="flex flex-col justify-center w-full pb-5">
-                  <span className="text-center">Knowledge :</span>
-                  <span className="text-center">
+                  <span className="text-center text-black">Knowledge :</span>
+                  <span className="text-center text-black">
                     ISO27000 Series, COBIT, Pentesting
                   </span>
                 </div>
@@ -46,13 +46,13 @@ const SecurityGovernance = () => {
             </div>
             <div className="flex w-6/12 justify-center">
               <div className="flex m-5 border border-base-burnished-brown rounded-lg w-full flex-col items-center justify-center py-5">
-                <div className="flex justify-center">
+                <div className="flex justify-center text-black">
                   <span>Approximately</span>
                 </div>
                 <div className="flex justify-center h-full items-center">
-                  <span className="text-4xl font-semibold text-center">2</span>
+                  <span className="text-4xl font-semibold text-center text-black">2</span>
                 </div>
-                <div className="flex justify-center">
+                <div className="flex justify-center text-black">
                   <span>projects in 1 year</span>
                 </div>
               </div>
@@ -63,7 +63,7 @@ const SecurityGovernance = () => {
         <div className="flex">
           <div className="flex m-5 border border-base-burnished-brown rounded-lg w-full flex-col">
             <div className="flex p-5 border-b border-b-base-burnished-brown justify-center">
-              <span className="font-semibold text-center text-xl">
+              <span className="font-semibold text-center text-xl text-black">
                 Designing Security Architecture for Improving Reimbursement
                 Service
               </span>
@@ -153,24 +153,24 @@ const SecurityGovernance = () => {
             </div>
             <div className="flex border-t border-t-base-burnished-brown p-5 items-center flex-col md:flex-row">
               <div className="flex w-full justify-center md:justify-start md:w-4/12">
-                <span className="font-semibold">Tools</span>
+                <span className="font-semibold text-black">Tools</span>
               </div>
               <div className="flex w-full md:w-8/12 justify-center flex-wrap">
                 <Image
-                  src={Assets.IconTs}
+                  src={Assets.IconArchi}
                   alt="ts"
                   width={40}
                   height={40}
                   className="m-2"
                 />
                 <Image
-                  src={Assets.IconNext}
+                  src={Assets.IconDrawio}
                   alt="next"
-                  width={100}
-                  height={100}
+                  width={30}
+                  height={30}
                   className="m-2"
                 />
-                <Image
+                {/* <Image
                   src={Assets.IconReact}
                   alt="react"
                   width={40}
@@ -183,7 +183,7 @@ const SecurityGovernance = () => {
                   width={40}
                   height={40}
                   className="m-2"
-                />
+                /> */}
               </div>
             </div>
           </div>
@@ -192,12 +192,12 @@ const SecurityGovernance = () => {
         <div className="flex">
           <div className="flex m-5 border border-base-burnished-brown rounded-lg w-full flex-col">
             <div className="flex p-5 border-b border-b-base-burnished-brown justify-center">
-              <span className="font-semibold text-center text-xl">
+              <span className="font-semibold text-center text-xl text-black">
                 Penetration Testing
               </span>
             </div>
             <div className="flex justify-center py-10">
-              <span className="text-center font-medium">
+              <span className="text-center font-medium text-black">
                 Penetration Testing pada VM Vulnhub
               </span>
             </div>
@@ -228,7 +228,7 @@ const SecurityGovernance = () => {
             </div>
             <div className="flex flex-col">
               <div className="flex justify-center my-4">
-                <span className="font-semibold text-2xl text-center">
+                <span className="font-semibold text-2xl text-center text-black">
                   Pages
                 </span>
               </div>
@@ -269,17 +269,17 @@ const SecurityGovernance = () => {
             </div>
             <div className="flex border-t border-t-base-burnished-brown p-5 items-center flex-col md:flex-row">
               <div className="flex w-full justify-center md:justify-start md:w-4/12">
-                <span className="font-semibold">Tools</span>
+                <span className="font-semibold text-black">Tools</span>
               </div>
               <div className="flex w-full justify-center md:w-8/12 flex-wrap">
                 <Image
-                  src={Assets.IconTs}
+                  src={Assets.VBox}
                   alt="ts"
                   width={40}
                   height={40}
                   className="m-2"
                 />
-                <Image
+                {/* <Image
                   src={Assets.IconNext}
                   alt="next"
                   width={100}
@@ -306,7 +306,7 @@ const SecurityGovernance = () => {
                   width={100}
                   height={100}
                   className="m-2"
-                />
+                /> */}
               </div>
             </div>
           </div>

@@ -71,6 +71,8 @@ import UI3 from "./images/ui3.png"
 import UI4 from "./images/ui4.png"
 import UI5 from "./images/ui5.png"
 
+import VBox from "./images/virtualbox.jpeg"
+
 import Jira from "./images/jira.png"
 const Assets = {
     IconArrow,
@@ -146,7 +148,9 @@ const Assets = {
     UI2,
     UI3,
     UI4,
-    UI5
+    UI5,
+
+    VBox
 }
 
 export default Assets

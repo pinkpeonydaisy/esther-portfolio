@@ -30,8 +30,8 @@ const ProductAndProjectManagement = () => {
             <div className="flex w-6/12 justify-center">
               <div className="flex m-5 border border-base-burnished-brown rounded-lg w-full flex-col">
                 <div className="flex flex-col justify-center w-full py-5 mb-5">
-                  <span className="text-center">Course Related :</span>
-                  <span className="text-center">
+                  <span className="text-center text-black">Course Related :</span>
+                  <span className="text-center text-black">
                     Project Management and Product Management
                   </span>
                 </div>
@@ -39,13 +39,13 @@ const ProductAndProjectManagement = () => {
             </div>
             <div className="flex w-6/12 justify-center">
               <div className="flex m-5 border border-base-burnished-brown rounded-lg w-full flex-col items-center justify-center py-5">
-                <div className="flex justify-center">
+                <div className="flex justify-center text-black">
                   <span>With</span>
                 </div>
                 <div className="flex justify-center h-full items-center">
-                  <span className="text-4xl font-semibold text-center">2</span>
+                  <span className="text-4xl font-semibold text-center text-black">2</span>
                 </div>
-                <div className="flex justify-center">
+                <div className="flex justify-center text-black">
                   <span>projects in 6 months</span>
                 </div>
               </div>
@@ -56,12 +56,12 @@ const ProductAndProjectManagement = () => {
         <div className="flex">
           <div className="flex m-5 border border-base-burnished-brown rounded-lg w-full flex-col">
             <div className="flex p-5 border-b border-b-base-burnished-brown justify-center">
-              <span className="font-semibold text-center text-xl">
+              <span className="font-semibold text-center text-xl text-black">
                 Pengembangan Perangkat Lunak Digitasi Koperasi
               </span>
             </div>
             <div className="flex justify-center py-10">
-              <span className="text-center font-medium">
+              <span className="text-center font-medium text-black">
                 Pengembangan Perangkat Lunak Digitasi Koperasi oleh PT
                 Mitsubishi Tanabe Pharma
               </span>
@@ -124,7 +124,7 @@ const ProductAndProjectManagement = () => {
             </div>
             <div className="flex border-t border-t-base-burnished-brown p-5 items-center">
               <div className="flex w-4/12">
-                <span className="font-semibold">Tools</span>
+                <span className="font-semibold">Tools text-black</span>
               </div>
               <div className="flex w-8/12">
                 <Image
@@ -149,7 +149,7 @@ const ProductAndProjectManagement = () => {
         <div className="flex">
           <div className="flex m-5 border border-base-burnished-brown rounded-lg w-full flex-col">
             <div className="flex p-5 border-b border-b-base-burnished-brown justify-center">
-              <span className="font-semibold text-center text-xl">
+              <span className="font-semibold text-center text-xl text-black">
                 HomeAid: Aplikasi Pencari ART sesuai kebutuhan
               </span>
             </div>
@@ -188,7 +188,7 @@ const ProductAndProjectManagement = () => {
             </div>
             <div className="flex border-t border-t-base-burnished-brown p-5 items-center">
               <div className="flex w-4/12">
-                <span className="font-semibold">Tools</span>
+                <span className="font-semibold text-black">Tools</span>
               </div>
               <div className="flex w-8/12">
                 <Image

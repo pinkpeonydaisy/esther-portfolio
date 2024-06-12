@@ -29,7 +29,7 @@ const PictureSlide = () => {
   return (
     <div className="flex flex-col">
       <div className="flex justify-center my-4">
-        <span className="font-semibold text-2xl text-center">Pages</span>
+        <span className="font-semibold text-2xl text-center text-black">Pages</span>
       </div>
       <div className="flex p-5 flex-col">
         <Slider {...settings}>
@@ -83,24 +83,24 @@ const WebDevelopment = () => {
             <div className="flex w-6/12 justify-center">
               <div className="flex m-5 border border-base-burnished-brown rounded-lg w-full flex-col">
                 <div className="flex flex-col justify-center w-full border-b border-b-base-burnished-brown py-5 mb-5">
-                  <span className="text-center">Course Related :</span>
-                  <span className="text-center">Rekayasa Perangkat Lunak</span>
+                  <span className="text-center text-black">Course Related :</span>
+                  <span className="text-center text-black">Rekayasa Perangkat Lunak</span>
                 </div>
                 <div className="flex flex-col justify-center w-full pb-5">
-                  <span className="text-center">Additional course :</span>
-                  <span className="text-center">Udemy Courses</span>
+                  <span className="text-center text-black">Additional course :</span>
+                  <span className="text-center text-black">Udemy Courses</span>
                 </div>
               </div>
             </div>
             <div className="flex w-6/12 justify-center">
               <div className="flex m-5 border border-base-burnished-brown rounded-lg w-full flex-col items-center justify-center py-5">
-                <div className="flex justify-center">
+                <div className="flex justify-center text-black">
                   <span>More than</span>
                 </div>
                 <div className="flex justify-center h-full items-center">
-                  <span className="text-4xl font-semibold text-center">5</span>
+                  <span className="text-4xl font-semibold text-center text-black">5</span>
                 </div>
-                <div className="flex justify-center">
+                <div className="flex justify-center text-black">
                   <span>projects in 1 year</span>
                 </div>
               </div>
@@ -111,7 +111,7 @@ const WebDevelopment = () => {
         <div className="flex">
           <div className="flex m-5 border border-base-burnished-brown rounded-lg w-full flex-col">
             <div className="flex p-5 border-b border-b-base-burnished-brown justify-center">
-              <span className="font-semibold text-center text-xl">
+              <span className="font-semibold text-center text-xl text-black">
                 Kursus Mengemudi Website
               </span>
             </div>
@@ -180,7 +180,7 @@ const WebDevelopment = () => {
 
             <div className="flex border-t border-t-base-burnished-brown p-5 items-center flex-col md:flex-row">
               <div className="flex w-full justify-center md:justify-start md:w-4/12">
-                <span className="font-semibold">Tools</span>
+                <span className="font-semibold text-black">Tools</span>
               </div>
               <div className="flex w-full md:w-6/12 justify-center flex-wrap">
                 <Image
@@ -224,7 +224,7 @@ const WebDevelopment = () => {
               </span>
             </div>
             <div className="flex justify-center py-10">
-              <span className="text-center font-medium">
+              <span className="text-center font-medium text-black">
                 Virtual Coffee Consultation adalah website yang mewadahi
                 konsultasi kopi dengan memberikan saran rekomendasi pada Virtual
                 Hotel Tour.
@@ -266,7 +266,7 @@ const WebDevelopment = () => {
             </div>
             <div className="flex border-t border-t-base-burnished-brown p-5 items-center flex-col md:flex-row">
               <div className="flex w-full justify-center md:justify-start md:w-4/12">
-                <span className="font-semibold">Tools</span>
+                <span className="font-semibold text-black">Tools</span>
               </div>
               <div className="flex w-full justify-center md:w-8/12 flex-wrap">
                 <Image
