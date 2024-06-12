@@ -57,7 +57,7 @@ const Footer = () => {
                 href="https://linkedin.com/in/esther-reginaa"
                 className="text-blue-500 hover:underline"
               >
-                linkedin.com/in/esther-regina
+                linkedin.com/in/esther-reginaa
               </a>
             </div>
           </div>
