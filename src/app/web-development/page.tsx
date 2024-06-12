@@ -1,14 +1,14 @@
 "use client";
 
-import React from 'react';
+import React from "react";
 import Components from "@/components";
 import { Steps } from "rsuite";
 import Image from "next/image";
 import "rsuite/dist/rsuite.min.css"; // Ensure rsuite styles are imported correctly
-import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Assets from "@/assets";
-import Slider from 'react-slick';
+import Slider from "react-slick";
 
 const styles = {
   display: "inline-table",
@@ -16,50 +16,53 @@ const styles = {
 };
 
 const PictureSlide = () => {
-    const settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 3000,
-    };
-  
-    return (
-      <div className="flex flex-col">
-        <div className="flex justify-center my-4">
-          <span className="font-semibold text-2xl text-center">Pages</span>
-        </div>
-        <div className="flex p-5 flex-col">
-          <Slider {...settings}>
-            {[
-              Assets.RPL1,
-              Assets.RPL2,
-              Assets.RPL3,
-              Assets.RPL4,
-              Assets.RPL5,
-              Assets.RPL6,
-            ].map((src, index) => (
-              <div
-                key={index}
-                className="w-full flex justify-center items-center"
-                style={{ height: '300px' }} // Ensure container height is set for vertical centering
-              >
-                <Image
-                  src={src}
-                  alt={`porto ${index + 1}`}
-                  className="p-1"
-                  style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }}
-                />
-              </div>
-            ))}
-          </Slider>
-        </div>
-      </div>
-    );
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
   };
-  
+
+  return (
+    <div className="flex flex-col">
+      <div className="flex justify-center my-4">
+        <span className="font-semibold text-2xl text-center">Pages</span>
+      </div>
+      <div className="flex p-5 flex-col">
+        <Slider {...settings}>
+          {[
+            Assets.RPL1,
+            Assets.RPL2,
+            Assets.RPL3,
+            Assets.RPL4,
+            Assets.RPL5,
+            Assets.RPL6,
+          ].map((src, index) => (
+            <div
+              key={index}
+              className="w-full flex justify-center items-center"
+              style={{ height: "300px" }} // Ensure container height is set for vertical centering
+            >
+              <Image
+                src={src}
+                alt={`porto ${index + 1}`}
+                className="p-1"
+                style={{
+                  maxWidth: "100%",
+                  maxHeight: "100%",
+                  objectFit: "contain",
+                }}
+              />
+            </div>
+          ))}
+        </Slider>
+      </div>
+    </div>
+  );
+};
 
 const WebDevelopment = () => {
   const proccessClick = () => {};
@@ -139,22 +142,36 @@ const WebDevelopment = () => {
                   title="Melakukan pengetesan pada fitur menggunakan JEST"
                   description="Membuat halaman log in  dan halaman membuat akun admin kursus"
                 />
-                <Steps.Item status="finish" title="Membuat Dokumen Hasil Pengujian" />
+                <Steps.Item
+                  status="finish"
+                  title="Membuat Dokumen Hasil Pengujian"
+                />
               </Steps>
             </div>
             <div className="flex mb-5 flex-col md:flex-row">
               <div className="flex w-full justify-center">
                 <Components.Button
-                  label="See prototype"
+                  label="See Backend Code"
                   showArrow={false}
-                  onClick={proccessClick}
+                  href="https://github.com/pinkpeonydaisy/kursusmengemudi-backend" // Replace with your URL
                 />
               </div>
-              <div className="flex w-full justify-center mt-2 md:mt-0">
+            </div>
+            <div className="flex mb-5 flex-col md:flex-row">
+              <div className="flex w-full justify-center">
                 <Components.Button
-                  label="See Documentation"
+                  label="See Frontend Code"
                   showArrow={false}
-                  onClick={proccessClick}
+                  href="https://github.com/pinkpeonydaisy/kursusmengemudi-frontend" // Replace with your URL
+                />
+              </div>
+            </div>
+            <div className="flex mb-5 flex-col md:flex-row">
+              <div className="flex w-full justify-center">
+                <Components.Button
+                  label="Document"
+                  showArrow={false}
+                  href="https://drive.google.com/file/d/1nxGdiM7Eyr-PgehKc09LWt6rqupafIQm/view?usp=sharing" // Replace with your URL
                 />
               </div>
             </div>
